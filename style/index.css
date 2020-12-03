@@ -1,0 +1,426 @@
+/* Add CSS styling here */
+
+/* global styles */
+*, body {
+     box-sizing: border-box;
+     font-size: 16px;
+     font-family: 'Chakra Petch', sans-serif;
+     color: #1f1f1f;
+     background: #d9d9d9;
+}
+
+h1 {
+     font-size: 4.5rem;
+     padding: 1.45rem;
+}
+
+h2 {
+     font-size: 4rem;
+     padding: 1.4rem;
+}
+
+h3 {
+     font-size: 3.5rem;
+     padding: 1.35rem;
+}
+
+h4 {
+     font-size: 3rem;
+     padding: 1rem;
+}
+
+h5 {
+     font-size: 2.5rem;
+     padding: .75rem;
+}
+
+h6 {
+     font-size: 2rem;
+     padding: .7rem;
+}
+
+p, a {
+     font-size: 1rem;
+     padding: .5rem;
+}
+
+/* index page */
+
+.bgContainer {
+     background: #1f1f1f;
+     height: 100%;
+}
+
+.title {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     height: 34px;
+     background: #646464;
+}
+
+.title p {
+     display: none;
+     background: #646464;
+}
+
+.title .responsive-nav, .title p {
+     color: white;
+     background: #646464;
+}
+
+.title .responsive-nav {
+     background: #646464;
+     position: absolute;
+     letter-spacing: -1.4px;
+     top: -8px;
+     left: 10px;
+     font-size: 2rem;
+}
+
+
+.title .responsive-nav:hover {
+     cursor: pointer;
+} 
+
+.container {
+     margin: 0 auto;
+     padding: 0;
+     box-shadow: 0 5px 5px #3d3d3d;
+     max-width: 320px;
+}
+
+#mobile {
+     display: none;
+     position: absolute;
+     background: gray;
+     line-height: 3rem;
+     z-index: 1;
+}
+
+#mobile-menu_id a {
+     text-decoration: none;
+     line-height: 2rem;
+     color: white;
+     padding: 0;
+}
+
+#mobile-menu_id div {
+     display: inline-block;
+     background: rgb(217,217,217);
+     width: 100px;
+     padding: 10px;
+}
+
+#mobile div:hover {
+     color: white;
+     background: #1f1f1f;
+}
+
+
+.main-nav {
+     background: gray;
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     width: 100%;
+     text-transform: uppercase;
+}
+
+.main-nav menu {
+     background: gray;
+     display: none;
+     height: 42px;
+     margin-left: 5px;
+}
+
+.main-nav menu, .main-nav menu div {
+     background: gray;
+}
+
+.main-nav div a {
+     background: gray;
+     color: white;
+     text-decoration: none;
+}
+
+.main-nav div a:hover { background: #2f2f2f;
+}
+
+.main-nav_name {
+     display: none;
+     font-size:1.8rem;
+     color: white;
+     background: gray;
+}
+
+.main-nav_name menu {
+     margin-left: 5px;
+}
+
+.feature {
+     display: flex;
+     flex-direction: column;
+     margin: 20px auto;
+     max-width: 230px;
+}
+
+.feature .name {
+     font-size: 1.4rem;
+     text-transform: uppercase;
+     color: #1f1f1f;
+}
+
+.feature-img {
+     background: url("https://picsum.photos/200/300?grayscale") no-repeat center/cover;
+     border-radius: 5px;
+     height: 250px;
+     margin: 15px;
+}
+
+.info {
+     padding: 10px;
+}
+
+.info .name {
+     margin-top: 50px;
+}
+
+.info-link {
+     align-items: center;
+     width: 250px;
+     margin: 10px;
+     display: flex;
+     margin-top: 40px;
+}
+
+.info-link a {
+     text-decoration: none;
+     border: 1px solid #1f1f1f;
+     border-radius: 5px;
+}
+
+.info p {
+     font-size: 1.2rem;
+     line-height: 1.8rem;
+}
+
+.gallery {
+     display: flex;
+     justify-content: center;
+}
+
+.gallery > div {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     text-align: center;
+}
+
+.gallery .project-card img {
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     height: 200px;
+     margin: 10px;
+     width: 200px;
+}
+
+.gallery .project-card a {
+     text-decoration: none;
+}
+
+.gallery .project-card p {
+     font-size: 1rem;
+     height: 40px;
+}
+
+footer {
+     margin-top: 40px;
+     background: #808080;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     height: 280px;
+     color: white;
+}
+
+footer div {
+     background: #808080;
+}
+
+footer .social {
+     background: #808080;
+     display: flex;
+     margin: 0px auto 30px;
+}
+
+footer .social img {
+     background: #808080;
+     width: 30px;
+}
+
+footer .social a {
+     background: #808080;
+}
+
+footer h5 {
+     font-size: 1.4rem;
+     color: white;
+}
+
+footer div {
+     margin: 0 6px;
+}
+
+.call-to-action {
+     background: #808080;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.call-to-action h5 {
+     background: #808080;
+}
+
+.call-to-action button {
+     background: #808080;
+     display: block;
+     margin: 0 auto;
+     padding: 0;
+}
+
+.call-to-action a {
+     background: #808080;
+     text-decoration: none;
+}
+
+.call-to-action a button {
+     background: rgba(217,217,217);
+     margin: 0 auto;
+     border-radius: 3px;
+     width: 100px;
+     border: none;
+}
+
+.call-to-action a button:hover {
+     cursor: pointer;
+     background: #1f1f1f;
+     color: white;
+}
+
+/* media queries */
+
+@media (min-width: 300px) {
+     .gallery .project-card img {
+          background: #e3e3e3;
+     }
+}
+
+
+@media (min-width: 640px) {
+
+     .feature {
+          max-width: 450px;
+     }
+
+     #mobile {
+          display: none;
+     }
+
+     #mobile a {
+          display: none;
+     }
+
+     .main-nav_name {
+          display: flex;
+     }
+
+     .main-nav menu {
+          display: flex;
+          padding: 0;
+     }
+
+     .title p {
+          display: block;
+          background: #646464;
+     }
+
+     .title .responsive-nav {
+          background: #646464;
+          display: none;
+     }
+
+     .info {
+          max-width: 420px;
+     }
+
+
+     .container {
+         max-width: 910px;
+     }
+
+     footer div {
+          margin: 0 16px;
+     }
+}
+
+@media (min-width: 680px) {
+     .feature {
+          flex-direction: row;
+          max-width: 700px;
+     }
+
+     .feature-img{
+          flex-grow: 5;
+     }
+
+     .gallery > div {
+          width: 680px;
+          justify-content: flex-start;
+     }
+}
+
+@media (min-width: 900px) {
+     .gallery > div {
+          width: 880px;
+     }
+
+     .feature {
+          max-width: 900px;
+     }
+     
+     .feature-img {
+          height: 360px;
+     }
+}
+
+/* animations */
+
+.bg-scale {
+     opacity: .60;
+     background-size:125%;
+     transition: 2s ease all;
+}
+
+.bg-scale:hover {
+     cursor: pointer;
+     opacity: 1;
+     background-size: 100%;
+}
+
+/* eof index page */
+
+/* auxillary styles */
+.main {
+     min-height: 542px;
+     margin: 0 auto;
+}
+
+.main-title {
+     font-size:1.8rem;
+}
